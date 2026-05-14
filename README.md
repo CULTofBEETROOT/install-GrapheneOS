@@ -35,11 +35,10 @@ To run the script, FOR EXAMPLE FOR A PIXEL model 10:
 execute the following command in your terminal:
 
 -------------------------------------------------------------------------------
-
-bash PIXEL10.sh
-
+```bash
+bash /home/$USER/Downloads/PIXEL10.sh
+```
 Follow the prompts provided by the script to complete the installation process.
-
 -------------------------------------------------------------------------------
 
 Important Notes
