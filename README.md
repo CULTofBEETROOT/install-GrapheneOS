@@ -28,7 +28,10 @@ Installation Steps
  8. Lock the Bootloader
  * After installation, the bootloader is locked again for security.
 Usage
-To run the script, FOR EXAMPLE FOR A PIXEL model 10: (change for your PIXEL model accordingly)
+
+To run the script, FOR EXAMPLE FOR A PIXEL model 10: 
+(change for your PIXEL model accordingly)
+
 execute the following command in your terminal:
 
 -------------------------------------------------------------------------------
