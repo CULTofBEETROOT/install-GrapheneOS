@@ -22,7 +22,7 @@ Installation Steps
  5. Download Installation Files
  * The script downloads the installation zip files and OTA updates for GrapheneOS.
  6. Prepare the Device
- * Follow the on-screen instructions to unlock the bootloader of your Pixel 10 device.
+ * Follow the on-screen instructions to unlock the bootloader of your Pixel device.
  7. Flash GrapheneOS
  * The script unpacks the installation files and executes the flashing process.
  8. Lock the Bootloader
