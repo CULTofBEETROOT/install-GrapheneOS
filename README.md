@@ -15,7 +15,7 @@ Installation Steps
  sudo apt install -y ufw openssh-client curl libarchive-tools
  sudo ufw enable
  3. Download GrapheneOS Release
- * The script fetches the latest version of GrapheneOS for the Pixel 10 device.
+ * The script fetches the latest version of GrapheneOS for the Pixel device.
  * It creates necessary directories for storing downloaded files.
  4. Verify Signatures
  * The script downloads and verifies the allowed signers for GrapheneOS to ensure the integrity of the installation files.
