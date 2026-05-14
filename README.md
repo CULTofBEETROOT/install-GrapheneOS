@@ -38,7 +38,9 @@ execute the following command in your terminal:
 ```bash
 bash /home/$USER/Downloads/PIXEL10.sh
 ```
+
 Follow the prompts provided by the script to complete the installation process.
+
 -------------------------------------------------------------------------------
 
 Important Notes
