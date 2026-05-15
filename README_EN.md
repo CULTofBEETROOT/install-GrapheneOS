@@ -9,8 +9,12 @@ Before running the script, ensure you have the following:
  * Basic knowledge of using the terminal.
 Installation Steps
  1. Update and Upgrade System Packages
+
+ ```bash
  sudo apt update 
  sudo apt upgrade -y
+ ```
+
  2. Install Required Packages
  sudo apt install -y ufw openssh-client curl libarchive-tools
  sudo ufw enable
