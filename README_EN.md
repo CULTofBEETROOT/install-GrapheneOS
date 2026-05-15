@@ -1,27 +1,17 @@
 
 Overview
 This repository contains a Bash script designed to automate the installation of GrapheneOS on any Google PIXEL device. The script performs necessary system updates, installs required packages, and guides the user through the flashing process.
+
 Prerequisites
 Before running the script, ensure you have the following:
  * A computer running a Debian-based Linux distribution (e.g., Ubuntu).
  * A Pixel device.
  * USB cable to connect your device to the computer.
  * Basic knowledge of using the terminal.
-Installation Steps
+   
+What the script does:
  1. Update and Upgrade System Packages
-
- ```bash
- sudo apt update 
- sudo apt upgrade -y
- ```
-
  2. Install Required Packages
-
- ```bash
- sudo apt install -y ufw openssh-client curl
- sudo ufw enable
- ```
-
  3. Download GrapheneOS Release
  * The script fetches the latest version of GrapheneOS for the Pixel device.
  * It creates necessary directories for storing downloaded files.
@@ -35,8 +25,8 @@ Installation Steps
  * The script unpacks the installation files and executes the flashing process.
  8. Lock the Bootloader
  * After installation, the bootloader is locked again for security.
-Usage
 
+Usage
 To run the script, FOR EXAMPLE FOR A PIXEL model 10: 
 (change for your PIXEL model accordingly)
 
