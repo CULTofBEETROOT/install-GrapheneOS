@@ -18,7 +18,7 @@ Installation Steps
  2. Install Required Packages
 
  ```bash
- sudo apt install -y ufw openssh-client curl libarchive-tools
+ sudo apt install -y ufw openssh-client curl
  sudo ufw enable
  ```
 
