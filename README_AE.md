@@ -5,9 +5,14 @@
     جهاز بكسل.
     كابل USB لتوصيل جهازك بالكمبيوتر.
     معرفة أساسية باستخدام سطر الأوامر. خطوات التثبيت
-
-    تحديث وترقية حزم النظام: sudo apt update sudo apt upgrade -y
-    تثبيت الحزم المطلوبة: sudo apt install -y ufw openssh-client curl libarchive-tools sudo ufw enable
+    تحديث وترقية حزم النظام:
+```bash
+sudo apt update sudo apt upgrade -y
+```
+    تثبيت الحزم المطلوبة:
+```bash
+sudo apt install -y ufw openssh-client curl libarchive-tools sudo ufw enable
+```
     قم بتنزيل إصدار GrapheneOS
 
     يقوم البرنامج النصي بجلب أحدث إصدار من نظام التشغيل GrapheneOS لجهاز Pixel.
