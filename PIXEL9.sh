@@ -18,7 +18,7 @@ chmod 777 "/home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME"
 
 curl https://releases.grapheneos.org/allowed_signers -o /home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGOS
 curl https://raw.githubusercontent.com/GrapheneOS/releases.grapheneos.org/259a27aa98c467ca024a0afff2b939ffa5ef30d1/static/allowed_signers -o /home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGTH
-cmp -s "/home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGTH" "/home/$USER/Downloads/Pixel9aGRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGOS" && echo "github GrapheneOS and GrapheneOS website, signers, are a match:)." || echo "The signature offered is not GrapheneOS's! STOP NOW!" 
+cmp -s "/home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGTH" "/home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/allowed_signersGOS" && echo "github GrapheneOS and GrapheneOS website, signers, are a match:)." || echo "The signature offered is not GrapheneOS's! STOP NOW!" 
 sleep 3s;
 
 wget -P "/home/$USER/Downloads/Pixel9GRAPHENEOS/$VERSION/$DEVICE_NAME/" "https://releases.grapheneos.org/$DEVICE_NAME-install-$VERSION.zip"
