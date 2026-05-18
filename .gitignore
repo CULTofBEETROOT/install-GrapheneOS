@@ -1,0 +1,7 @@
+# Ignore specific files
+/index.html
+/style.css
+
+# Ignore specific directories and all their contents
+/web/
+/github/
