@@ -3,5 +3,5 @@
 /style.css
 
 # Ignore specific directories and all their contents
-/web/
-/github/
+/.web/
+/.github/
