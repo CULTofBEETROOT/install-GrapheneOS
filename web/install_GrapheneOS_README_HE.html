@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>התקנת GrapheneOS בקלות</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>התקנה</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>מאומת, מהיר, פשוט</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='עותק'; setTimeout(()=>this.innerText='העתק',1.00)})">הועתק</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>שימוש</h2>
+<h4>להרצת הסקריפט, לדוגמה עבור דגם PIXEL10...
+<br>(התאם את הפקודה לדגם ה-PIXEL שלך)
+<br>
+<br>הפעל את הפקודה הבאה במסוף שלך:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='עותק'; setTimeout(()=>this.innerText='העתק',1.00)})">הועתק</button>
+</div>
+<br>
+<br>
+<h4>עקוב אחר ההנחיות של הסקריפט כדי להשלים את תהליך ההתקנה.</h4>
+<br>
+<br>
+<h3>סקירה כללית</h3>
+
+<h4>מאגר זה מכיל סקריפט Bash שנועד לאוטומציה של התקנת GrapheneOS על כל מכשיר Google Pixel. הסקריפט מבצע את עדכוני המערכת הנדרשים, מתקין את החבילות הנחוצות ומנחה את המשתמש בתהליך ה-flash.</h4>
+<br>
+<h3>דרישות מוקדמות</h3>
+<h4>לפני הרצת הסקריפט, ודא שיש לך את הדברים הבאים:
+<br>
+
+<br> *  מחשב עם הפצת לינוקס מבוססת Debian (למשל, Ubuntu).
+
+<br> *  מכשיר Pixel.
+
+<br> *  כבל USB לחיבור המכשיר למחשב.
+
+<br> *  ידע בסיסי בשימוש במסוף (טרמינל).</h4>
+<br>
+<h3>תכונות הסקריפט:</h3>
+<h4>1. עדכון ושיפור חבילות המערכת
+
+<br>2. התקנת החבילות הנחוצות
+
+<br>3. הורדת גרסת GrapheneOS
+<br> *  הסקריפט מוריד את הגרסה האחרונה של GrapheneOS עבור מכשיר Pixel.
+
+<br> *  יוצר את הספריות הנדרשות לאחסון הקבצים שהורדו.
+
+<br>4. אימות חתימות
+<br> *  הסקריפט מוריד ואימות את החותמים המורשים של GrapheneOS כדי להבטיח את שלמות קבצי ההתקנה. 
+<br>5. הורדת קבצי התקנה
+
+<br> *  הסקריפט מוריד את קבצי ה-zip של ההתקנה ואת עדכוני ה-OTA עבור GrapheneOS.
+
+<br>6. הכנת המכשיר
+
+<br> *  עקוב אחר ההוראות על המסך כדי לפתוח את ה-bootloader של מכשיר ה-Pixel שלך.
+
+<br>7. התקנת GrapheneOS
+
+<br> *  הסקריפט מפענח את קבצי ההתקנה ומבצע את תהליך ה-flash.
+
+<br>8. נעילת ה-bootloader
+
+<br> *  לאחר ההתקנה, ה-bootloader ייחסם שוב מטעמי אבטחה.</h4>
+<br>
+<h3>הערות חשובות</h3>
+<h4> 
+*  בצע גיבוי של הנתונים שלך:
+<br> הפלאש של מערכת הפעלה חדשה ימחק את כל הנתונים במכשיר שלך. ודא שביצעת גיבוי של כל המידע החשוב.
+<br>
+<br> *  אימות אתחול:
+<br> לאחר ההתקנה, השתמש בפונקציות האימות שמציע GrapheneOS כדי לוודא את שלמות ההתקנה.
+</h4>
+<br>
+<h3>סיכום:</h3>
+<h4> 
+הסקריפט מפשט את התקנת GrapheneOS במכשיר ה-Pixel שלך. על ידי ביצוע השלבים המפורטים לעיל, תוכל להבטיח התקנה חלקה. אם נתקלת בבעיות או יש לך שאלות, עיין בתיעוד הרשמי של GrapheneOS או פנה לעזרה בקהילה.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

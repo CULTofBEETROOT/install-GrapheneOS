@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cài đặt GrapheneOS đơn giản</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Cài đặt</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>đã xác minh, nhanh, đơn giản</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Đã sao chép'; setTimeout(()=>this.innerText='Sao chép',1.00)})">đã sao chép</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Sử dụng</h2>
+<h4>Để chạy script, CHẲNG HẠN CHO MỘT mẫu PIXEL10...
+<br>(chỉnh lệnh theo mẫu PIXEL của bạn)
+<br>
+<br>Chạy lệnh sau trong terminal của bạn:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Đã sao chép'; setTimeout(()=>this.innerText='Sao chép',1.00)})">đã sao chép</button>
+</div>
+<br>
+<br>
+<h4>Thực hiện theo hướng dẫn của script để hoàn tất quá trình cài đặt.</h4>
+<br>
+<br>
+<h3>Tổng quan</h3>
+
+<h4>Kho lưu trữ này chứa một script Bash được thiết kế để tự động hóa việc cài đặt GrapheneOS trên bất kỳ thiết bị Google Pixel nào. Script thực hiện các cập nhật hệ thống cần thiết, cài đặt các gói yêu cầu và hướng dẫn người dùng trong quá trình flash.</h4>
+<br>
+<h3>Yêu cầu trước</h3>
+<h4>Trước khi chạy script, hãy đảm bảo bạn có:
+<br>
+
+<br> *  Máy tính chạy bản phân phối Linux dựa trên Debian (ví dụ: Ubuntu).
+
+<br> *  Một thiết bị Pixel.
+
+<br> *  Cáp USB để kết nối thiết bị với máy tính.
+
+<br> *  Kiến thức cơ bản về sử dụng terminal.</h4>
+<br>
+<h3>Các chức năng của script:</h3>
+<h4>1. Cập nhật và cải tiến các gói hệ thống
+
+<br>2. Cài đặt các gói cần thiết
+
+<br>3. Tải xuống phiên bản GrapheneOS
+<br> *  Script tải xuống phiên bản mới nhất của GrapheneOS cho thiết bị Pixel.
+
+<br> *  Tạo các thư mục cần thiết để lưu trữ các tệp đã tải xuống.
+
+<br>4. Xác minh chữ ký
+<br> *  Script tải xuống và xác minh các người ký được ủy quyền cho GrapheneOS để đảm bảo tính toàn vẹn của các tệp cài đặt. 
+<br>5. Tải xuống các tệp cài đặt
+
+<br> *  Script tải xuống các tệp zip cài đặt và các bản cập nhật OTA cho GrapheneOS.
+
+<br>6. Chuẩn bị thiết bị
+
+<br> *  Làm theo hướng dẫn trên màn hình để mở khóa bootloader của thiết bị Pixel của bạn.
+
+<br>7. Cài đặt GrapheneOS
+
+<br> *  Script giải nén các tệp cài đặt và thực hiện quá trình flash.
+
+<br>8. Khóa lại bootloader
+
+<br> *  Sau khi cài đặt, bootloader sẽ được khóa lại vì lý do bảo mật.</h4>
+<br>
+<h3>Lưu ý quan trọng</h3>
+<h4> 
+*  Sao lưu dữ liệu của bạn:
+<br> Flash hệ điều hành mới sẽ xóa tất cả dữ liệu trên thiết bị của bạn. Hãy đảm bảo bạn đã sao lưu bất kỳ thông tin quan trọng nào.
+<br>
+<br> *  Xác minh khởi động:
+<br> Sau khi cài đặt, sử dụng các chức năng chứng nhận do GrapheneOS cung cấp để xác minh tính toàn vẹn của bản cài đặt.
+</h4>
+<br>
+<h3>Kết luận:</h3>
+<h4> 
+Script này đơn giản hóa việc cài đặt GrapheneOS trên thiết bị Pixel của bạn. Bằng cách làm theo các bước nêu trên, bạn có thể đảm bảo quá trình cài đặt trơn tru. Nếu gặp sự cố hoặc có câu hỏi, hãy tham khảo tài liệu chính thức của GrapheneOS hoặc tìm trợ giúp từ cộng đồng.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

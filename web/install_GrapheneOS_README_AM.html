@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="hy"><head>    <meta charset="UTF-8">    <title>GrapheneOS պարզ տեղադրում</title>    <meta name="viewport" content="width=device-width, initial-scale=<br>1.0">
+    <link href="fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css"></head><body>
+    <section class="hero">        <div class="hero-content">	    <h1>Տեղադրում</h1>	    <h1>GrapheneOS</h1>            <h2>վավերացված, արագ, պարզ</h2>		<div class="neon-block" role="group" aria-label="code example">  		<code class="neon-code" id="cmd">wget "github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";unzip main.zip;sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',<br>1.00)})">պատճենված</button>		</div>        </div>
+        <div class="hero-image">	    <img src="./780febcc.mask-iconi.jpg">        </div>
+    </section>
+    <section id="about" class="about">        <div class="about-content">            <h2>Օգտագործում</h2>            <h4>Սկրիպտն աշխատեցնելու համար՝ օրինակ PIXEL10 մոդելի դեպքում՝<br>(հարմարեցրեք հրամանը ձեր PIXEL մոդելին)<br><br>Տերմինալում կատարեք հետևյալ հրամանը՝</h4>
+            <div class="neon-block" role="group" aria-label="code example">                  <code class="neon-code" id="cmd2">sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',<br>1.00)})">պատճենված</button></div><br><br><h4>Ավելացրած հրահանգները հետևեք՝ տեղադրման գործընթացը ավարտելու համար։</h4><br><br><h3>Ընդհանուր նկարագրություն</h3>
+<h4>Այս պահոցը պարունակում է Bash սցենար, որը նախատեսված է GrapheneOS-ի տեղադրման ավտոմատացմանը ցանկացած Google Pixel սարքի վրա։ Սցենարը կատարում է համակարգի անհրաժեշտ թարմացումները, տեղադրում պահանջվող փաթեթները և ուղեկցում օգտագործողին ֆլեշման պահին։</h4><br><h3>Նախապայմաններ</h3><h4>Սցենարը 실행ելուց առաջ համոզվեք, որ ունեք հետևյալը.<br>
+<br> *  Համակարգիչ՝ Debian-այլ Linux բաշխմամբ (օրինակ՝ Ubuntu).
+<br> *  Pixel սարք.
+<br> *  USB մալուխ՝ սարքը համակարգչին միացնելու համար.
+<br> *  Ծանոթություն տերմինալի օգտագործմանը.</h4><br><h3>Սցենարի իրողություններն՝</h3><h4>1. Համակարգային փաթեթների թարմացում և բարելավում
+<br>2. Պահանջվող փաթեթների տեղադրում
+<br>3. GrapheneOS-ի տարբերակի ներբեռնում<br> *  Սցենարը ներբեռնում է Pixel սարքի համար GrapheneOS–ի վերջին տարբերակը։
+<br> *  Ստեղծում է անհրաժեշտ թղթապանակները ներբեռված ֆայլերը պահելու համար։
+<br>4. Դաստիքների ստուգում<br> *  Սցենարը ներբեռնում և ստուգում է GrapheneOS-ի վավերացված ստորագրողներին՝ տեղադրման ֆայլերի ամբողջականությունը ապահովելու համար։ <br>5. Տեղադրման ֆայլերի ներբեռնում
+<br> *  Սցենարը ներբեռնում է տեղադրման zip ֆայլերը և GrapheneOS-ի OTA թարմացումները։
+<br>6. Սարքի նախապատրաստում
+<br> *  Անհրաժեշտ է հետևել էկրանին տրված հրահանգներին՝ ձեր Pixel սարքի բուտլոիդերը բացելու համար։
+<br>7. GrapheneOS-ի տեղադրում
+<br> *  Սցենարը բացում է տեղադրման ֆայլերը և իրականացնում է ֆլեշ գործընթացը։
+<br>8. Բուտլոիդերի վերաբացիկ (փակում)<br> *  Տեղադրման ավարտին անվտանգության նկատառումներով բուտլոիդերը կրկին փակվում է։</h4><br><h3>Mah կարևոր նշումներ</h3>
+<h4>
+* Պահպանեք ձեր տվյալների պահուստային պատճենը՝ նախքան գործընթացը սկսելը։<br>
+  Նոր օպերացիոն համակարգի ֆլեշումը կհեռացնի ձեր սարքի բոլոր տվյալները։ Համոզվեք, որ պահպանել եք ցանկացած կարևոր տեղեկության կրկնօրինակը։<br><br>
+* Ստուգեք բուտլոադերը։<br>
+  Տեղադրման ավարտից հետո օգտագործեք GrapheneOS-ի տրամադրած հավաստման գործիքները՝ տեղադրման ամբողջականությունը ստուգելու համար։
+</h4>
+<br><h3>Եզրակացություն:</h3><h4> Այս սցենարը պարզեցնում է GrapheneOS-ի տեղադրումը ձեր Pixel սարքի վրա։ Վերոնշյալ քայլերին հետևելով դուք կկարողանաք ապահովել համադրելի և խնդիրներ չպարգևող տեղադրում։ Եթե խնդիր կամ հարց ունեք՝ խորհրդի համար օգտագործել GrapheneOS–ի պաշտոնական փաստաթղթերը կամ օգնություն փնտրել համայնքում։</h4>            </p>        </div>    </section>
+</body></html>

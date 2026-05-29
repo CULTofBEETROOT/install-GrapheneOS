@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="lo">
+<head>
+    <meta charset="UTF-8">
+    <title>ຕິດຕັ້ງ GrapheneOS ຢ່າງງ່າຍ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>ການຕິດຕັ້ງ</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>ຖືກຕ້ອງ, ໄວ, ງ່າຍ</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">ຄັດລອກແລ້ວ</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>ການນໍາໃຊ້</h2>
+<h4>ເພື່ອເຮັດໃຫ້ສະຕຣິບດ້ວຍການເຮັດວຽກ, ຕົວຢ່າງເຊັ່ນ, ສຳລັບແບບ PIXEL10...
+<br>(ປັບຄຳສັ່ງໃຫ້ເໝາະສົມກັບແບບ PIXEL ຂອງທ່ານ)
+<br>
+<br>ໃສ່ຄຳສັ່ງຕໍ່ໄປນີ້ໃນເທີມິນຂອງທ່ານ:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">ຄັດລອກແລ້ວ</button>
+</div>
+<br>
+<br>
+<h4>ປະຕິທິປະຕິທານຕາມຄຳແນະນໍາໃນສະຕຣິບເພື່ອສຳເລັດການຕິດຕັ້ງ</h4>
+<br>
+<br>
+<h3>ພວກມັນສ່ວນຫລວງ</h3>
+
+<h4>ເກັບຮັບນີ້ມີ Bash script ທີ່ອອກແບບເພື່ອອັດຕະໂນມັດການຕິດຕັ້ງ GrapheneOS ໃນອຸປະກອນ Google Pixel ໃດກໍໄດ້. script ຈະເຮັດການອັບເດດລະບົບທີ່ຈຳເປັນ, ຕິດຕັ້ງແພັກເກັດທີ່ຕ້ອງການ ແລະ ຊ່ວຍນໍາຜູ້ໃຊ້ໃນການຟ້ລເຊີງ</h4>
+<br>
+<h3>ຄວາມຕ້ອງການກ່ອນຫນ້າ</h3>
+<h4>ກ່ອນທີ່ຈະເຮັດໃຫ້ script ແມ່ນມີສິ່ງຕໍ່ໄປນີ້:
+<br>
+
+<br> *  ເຄື່ອງຄອມພິວເຕເີ ທີ່ມີການຈັດຈໍານໍາ Linux ພື້ນຖານ Debian (ຕົວຢ່າງ: Ubuntu).
+
+<br> *  ອຸປະກອນ Pixel.
+
+<br> *  ສາຍ USB ເພື່ອເຊື່ອມອຸປະກອນກັບເຄື່ອງຄອມພິວເຕເີ.
+
+<br> *  ຄວາມຮູ້ພື້ນຖານໃນການໃຊ້ເທີມິນເວລາ.</h4>
+<br>
+<h3>ຟັງຊັ່ນຂອງ script:</h3>
+<h4>1. ອັບເດດແລະປັບປຸງແພັກເກັດລະບົບ
+
+<br>2. ຕິດຕັ້ງແພັກເກັດທີ່ຈຳເປັນ
+
+<br>3. ດາວໂຫຼດວາດເຊັນຂອງ GrapheneOS
+<br> *  script ດາວໂຫຼດວາດເຊັນລ່າສຸດສໍາລັບອຸປະກອນ Pixel
+
+<br> *  ສ້າງໂຟລເດີທີ່ຈຳເປັນເພື່ອເກັບໄຟລ໌ທີ່ດາວໂຫຼດ
+
+<br>4. ກວດເຊັກລາຍເຊັນ
+<br> *  script ດາວໂຫຼດແລະກວດເຊັກຜູ້ລາຍເຊັນທີ່ໄດ້ຮັບການອະນຸຍາດສຳລັບ GrapheneOS ເພື່ອຮັບປະກັນຄວາມຄົບຖ້ວນຂອງໄຟລ໌ຕິດຕັ້ງ. 
+<br>5. ດາວໂຫຼດໄຟລ໌ຕິດຕັ້ງ
+
+<br> *  script ດາວໂຫຼດໄຟລ໌ zip ສໍາລັບການຕິດຕັ້ງ ແລະ ອັບເດດ OTA ຂອງ GrapheneOS
+
+<br>6. ເຮັດໃຫ້ອຸປະກອນພ້ອມ
+
+<br> *  ປະຕິບັດຕາມຄຳແນະນໍາໃນຈໍເພື່ອເປີດ bootloader ຂອງ Pixel ຂອງທ່ານ
+
+<br>7. ຕິດຕັ້ງ GrapheneOS
+
+<br> *  script ຈະດຶງຂື້ນໄຟລ໌ຕິດຕັ້ງແລະດໍາເນີນການຟ້ລເຊີງ
+
+<br>8. ລັ້ງ bootloader
+
+<br> *  ຫຼັງຈາກການຕິດຕັ້ງ bootloader ຈະຖືກລັ້ງຄືນອີກເພື່ອຄວາມປອດໄພ</h4>
+<br>
+<h3>ໝາຍເຫດສຳຄັນ</h3>
+<h4> 
+*  ສ້າງສຳເນົາຂໍ້ມູນຂອງທ່ານ:
+<br> ການຟ້ລເຊີງລະບົບປອດຄູ່ໄວ້ຈະລ້າງຂໍ້ມູນທັງໝົດໃນອຸປະກອນ. ແນ່ໃຈວ່າທ່ານມີການສ້າງສຳເນົາຂໍ້ມູນສຳຄັນ.
+<br>
+<br> *  ກວດສອບ boot:
+<br> ຫຼັງການຕິດຕັ້ງ, ໃຊ້ຟັງຊັນການຢືນຢັນທີ່ GrapheneOS ມີເພື່ອກວດສອບຄວາມຄົບຖ້ວນຂອງການຕິດຕັ້ງ.
+</h4>
+<br>
+<h3>ສຸດທ້າຍ:</h3>
+<h4> 
+script ນີ້ເຮັດໃຫ້ການຕິດຕັ້ງ GrapheneOS ໃນອຸປະກອນ Pixel ຂອງທ່ານງ່າຍຂຶ້ນ. ດ້ວຍການປະຕິບັດຕາມຂັ້ນຕອນທີ່ລະບຸໄວ້ຂ້າງເທິງ, ທ່ານຈະສາມາດຮັບປະກັນການຕິດຕັ້ງທີ່ຂາດຂໍ້ຜິດພາດ. ຖ້າທ່ານມີບັນຫາຫຼືສົນໃຈ, ກະລຸນາອ້າງອີງເອກະສານທາງການຂອງ GrapheneOS ຫຼືຂໍຄຳແນະນໍາຈາກຊຸມຊົນ.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

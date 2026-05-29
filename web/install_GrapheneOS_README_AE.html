@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>تثبيت GrapheneOS البسيط</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>التثبيت</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>مُتحقَّق، سريع، بسيط</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='تم النسخ'; setTimeout(()=>this.innerText='Copy', 1.00)})">تم النسخ</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<h2>الاستخدام</h2>
+<h4>لتشغيل السكربت، على سبيل المثال، لطراز PIXEL10...
+<br>(قم بتعديل الأمر ليتناسب مع طراز PIXEL الخاص بك)
+<br>
+<br>نفّذ الأمر التالي في الطرفية:<br>
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='تم النسخ'; setTimeout(()=>this.innerText='Copy', 1.00)})">تم النسخ</button>
+</div>
+<br>
+<br>
+<h4>اتبع تعليمات السكربت لإكمال عملية التثبيت.</h4>
+<br>
+<br>
+<h3>لمحة عامة</h3>
+
+<h4>يحتوي هذا المستودع على سكربت Bash مصمم لأتمتة تثبيت GrapheneOS على أي جهاز Google Pixel. يقوم السكربت بإجراء تحديثات النظام اللازمة، وتثبيت الحزم المطلوبة، وإرشاد المستخدم أثناء عملية الفلاش.</h4>
+<br>
+<h3>المتطلبات المسبقة</h3>
+<h4>قبل تشغيل السكربت، تأكد من أن لديك ما يلي:
+<br>
+
+<br> *  جهاز كمبيوتر بنظام تشغيل لينكس قائم على Debian (مثل Ubuntu).
+
+<br> *  جهاز Pixel.
+
+<br> *  كابل USB لتوصيل الجهاز بالكمبيوتر.
+
+<br> *  معرفة أساسية باستخدام الطرفية.</h4>
+<br>
+<h3>وظائف السكربت:</h3>
+<h4>1. تحديث وترقية حزم النظام
+
+<br>2. تثبيت الحزم اللازمة
+
+<br>3. تنزيل نسخة GrapheneOS
+<br> *  يقوم السكربت بتنزيل أحدث نسخة من GrapheneOS لجهاز Pixel.
+
+<br> *  ينشئ الأدلة اللازمة لتخزين الملفات التي تم تنزيلها.
+
+<br>4. التحقق من التواقيع
+<br> *  يقوم السكربت بتنزيل والتحقق من الموقّعين المصرح لهم لـ GrapheneOS لضمان سلامة ملفات التثبيت.
+<br>5. تنزيل ملفات التثبيت
+
+<br> *  يقوم السكربت بتنزيل ملفات zip للتثبيت وتحديثات OTA الخاصة بـ GrapheneOS.
+
+<br>6. تجهيز الجهاز
+
+<br> *  اتبع التعليمات على الشاشة لفتح محمّل الإقلاع (bootloader) على جهاز Pixel الخاص بك.
+
+<br>7. تثبيت GrapheneOS
+
+<br> *  يقوم السكربت بفك ضغط ملفات التثبيت وتنفيذ عملية الفلاش.
+
+<br>8. قفل محمّل الإقلاع
+
+<br> *  بعد التثبيت، يُعاد قفل محمّل الإقلاع لأسباب أمنية.</h4>
+<br>
+<h3>ملاحظات مهمة</h3>
+<h4> 
+*  قم بعمل نسخة احتياطية لبياناتك:
+<br> سيؤدي فلاش نظام تشغيل جديد إلى مسح جميع بيانات جهازك. تأكد من إجراء نسخة احتياطية لأي معلومات مهمة.
+<br>
+<br> *  التحقق من الإقلاع:
+<br> بعد التثبيت، استخدم ميزات التحقق التي يوفرها GrapheneOS للتأكد من سلامة التثبيت.
+</h4>
+<br>
+<h3>الخلاصة:</h3>
+<h4> 
+يبسط هذا السكربت عملية تثبيت GrapheneOS على جهاز Pixel الخاص بك. باتباع الخطوات أعلاه، ستضمن تثبيتاً سلساً. إذا واجهت أي مشكلات أو كانت لديك أسئلة، راجع توثيق GrapheneOS الرسمي أو اطلب المساعدة من المجتمع.
+</h4>
+        </div>
+    </section>
+
+</body>
+</html>

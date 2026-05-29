@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <title>Installer GrapheneOS enkelt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Installasjon</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>verifisert, raskt, enkelt</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">kopiert</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Bruk</h2>
+<h4>For å kjøre skriptet, for eksempel for en PIXEL10-modell...
+<br>(tilpass kommandoen til din PIXEL-modell)
+<br>
+<br>Kjør følgende kommando i terminalen din:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">kopiert</button>
+</div>
+<br>
+<br>
+<h4>Følg instruksjonene i skriptet for å fullføre installasjonsprosessen.</h4>
+<br>
+<br>
+<h3>Oversikt</h3>
+
+<h4>Dette depotet inneholder et Bash-skript designet for å automatisere installasjonen av GrapheneOS på hvilken som helst Google Pixel-enhet. Skriptet utfører nødvendige systemoppdateringer, installerer nødvendige pakker og veileder brukeren gjennom flashing-prosessen.</h4>
+<br>
+<h3>Forutsetninger</h3>
+<h4>Før du kjører skriptet, sørg for at du har følgende:
+<br>
+
+<br> *  En datamaskin med en Debian-basert Linux-distribusjon (for eksempel Ubuntu).
+
+<br> *  En Pixel-enhet.
+
+<br> *  En USB-kabel for å koble enheten til datamaskinen.
+
+<br> *  Grunnleggende kunnskap om bruk av terminalen.</h4>
+<br>
+<h3>Skriptets funksjoner:</h3>
+<h4>1. Oppdatere og oppgradere systempakker
+
+<br>2. Installere nødvendige pakker
+
+<br>3. Laste ned GrapheneOS-versjonen
+<br> *  Skriptet laster ned den nyeste versjonen av GrapheneOS for Pixel-enheten.
+
+<br> *  Oppretter nødvendige kataloger for å lagre nedlastede filer.
+
+<br>4. Verifisere signaturer
+<br> *  Skriptet laster ned og verifiserer de autoriserte signatorene for GrapheneOS for å sikre integriteten til installasjonsfilene. 
+<br>5. Laste ned installasjonsfiler
+
+<br> *  Skriptet laster ned installasjons-zip-filene og OTA-oppdateringene for GrapheneOS.
+
+<br>6. Forberede enheten
+
+<br> *  Følg instruksjonene på skjermen for å låse opp bootloaderen på Pixel-enheten din.
+
+<br>7. Installere GrapheneOS
+
+<br> *  Skriptet pakker ut installasjonsfilene og kjører flashing-prosessen.
+
+<br>8. Låse bootloaderen
+
+<br> *  Etter installasjonen blir bootloaderen låst igjen for sikkerhet.</h4>
+<br>
+<h3>Viktige merknader</h3>
+<h4> 
+*  Ta backup av dataene dine:
+<br> Flashing av et nytt operativsystem vil slette alle data på enheten din. Sørg for at du har tatt backup av viktig informasjon.
+<br>
+<br> *  Verifisere oppstart:
+<br> Etter installasjonen, bruk verifiseringsfunksjonene som tilbys av GrapheneOS for å kontrollere integriteten til installasjonen.
+</h4>
+<br>
+<h3>Konklusjon:</h3>
+<h4> 
+Dette skriptet forenkler installasjonen av GrapheneOS på din Pixel-enhet. Ved å følge trinnene ovenfor kan du sikre en problemfri installasjon. Hvis du har problemer eller spørsmål, se GrapheneOS offisielle dokumentasjon eller søk hjelp i fellesskapet.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

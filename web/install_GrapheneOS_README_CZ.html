@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <title>Jednoduchá instalace GrapheneOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web font s podporou latinky; české znaky jsou v běžných písmech podporovány -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Instalace</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>ověřeno, rychle, jednoduše</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Zkopírováno'; setTimeout(()=>this.innerText='Copy', 1000)})">Zkopírováno</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<h2>Použití</h2>
+<h4>Chcete-li spustit skript, NAPŘ. PRO MODEL PIXEL10...
+<br>(přizpůsobte příkaz podle modelu svého PIXEL)
+<br>
+<br>Spusťte v terminálu následující příkaz:<br>
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd-2"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd-2').innerText).then(()=>{this.innerText='Zkopírováno'; setTimeout(()=>this.innerText='Copy', 1000)})">Zkopírováno</button>
+</div>
+<br>
+<br>
+<h4>Následujte pokyny skriptu pro dokončení instalace.</h4>
+<br>
+<br>
+<h3>Přehled</h3>
+
+<h4>Tento repozitář obsahuje Bash skript navržený k automatizaci instalace GrapheneOS na jakékoli zařízení Google Pixel. Skript provede potřebné aktualizace systému, nainstaluje požadované balíčky a provede uživatele procesem flashování.</h4>
+<br>
+<h3>Předpoklady</h3>
+<h4>Než skript spustíte, ujistěte se, že máte:
+<br>
+
+<br> *  Počítač s distribucí Linux založenou na Debianu (např. Ubuntu).
+
+<br> *  Zařízení Pixel.
+
+<br> *  USB kabel pro připojení zařízení k počítači.
+
+<br> *  Základní znalosti práce s terminálem.</h4>
+<br>
+<h3>Funkce skriptu:</h3>
+<h4>1. Aktualizace a vylepšení systémových balíčků
+
+<br>2. Instalace potřebných balíčků
+
+<br>3. Stažení verze GrapheneOS
+<br> *  Skript stáhne nejnovější verzi GrapheneOS pro zařízení Pixel.
+
+<br> *  Vytvoří potřebné adresáře pro uložení stažených souborů.
+
+<br>4. Ověření podpisů
+<br> *  Skript stáhne a ověří autorizované podepisovatele GrapheneOS, aby zajistil integritu instalačních souborů.
+<br>5. Stažení instalačních souborů
+
+<br> *  Skript stáhne instalační zip soubory a OTA aktualizace pro GrapheneOS.
+
+<br>6. Příprava zařízení
+
+<br> *  Postupujte podle pokynů na obrazovce pro odemknutí bootloaderu vašeho zařízení Pixel.
+
+<br>7. Instalace GrapheneOS
+
+<br> *  Skript rozbalí instalační soubory a provede proces flashování.
+
+<br>8. Uzamčení bootloaderu
+
+<br> *  Po instalaci je bootloader z bezpečnostních důvodů opět uzamčen.</h4>
+<br>
+<h3>Důležité poznámky</h3>
+<h4> 
+*  Zálohujte svá data:
+<br> Flashování nového operačního systému vymaže všechna data na vašem zařízení. Ujistěte se, že jste si vytvořili zálohu důležitých informací.
+<br>
+<br> *  Ověření spouštění:
+<br> Po instalaci použijte kontrolní funkce, které GrapheneOS nabízí, a ověřte integritu instalace.
+</h4>
+<br>
+<h3>Závěr:</h3>
+<h4> 
+Tento skript zjednodušuje instalaci GrapheneOS na vaše zařízení Pixel. Dodržením výše uvedených kroků zajistíte bezproblémovou instalaci. Pokud narazíte na problémy nebo máte otázky, nahlédněte do oficiální dokumentace GrapheneOS nebo požádejte o pomoc komunitu.
+</h4>
+        </div>
+    </section>
+
+</body>
+</html>
+

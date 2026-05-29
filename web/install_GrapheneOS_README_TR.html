@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>GrapheneOS basit kurulumu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Kurulum</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>doğrulanmış, hızlı, basit</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Kopyalandı'; setTimeout(()=>this.innerText='Kopyala',1.00)})">kopyalandı</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Kullanım</h2>
+<h4>Betik çalıştırmak için, ÖRNEĞİN BİR PIXEL10 modeli İÇİN...
+<br>(komutu PIXEL modelinize göre uyarlayın)
+<br>
+<br>Aşağıdaki komutu terminalinizde çalıştırın:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Kopyalandı'; setTimeout(()=>this.innerText='Kopyala',1.00)})">kopyalandı</button>
+</div>
+<br>
+<br>
+<h4>Kurulum işlemini tamamlamak için betiğin yönergelerini izleyin.</h4>
+<br>
+<br>
+<h3>Genel bakış</h3>
+
+<h4>Bu depo, herhangi bir Google Pixel cihazında GrapheneOS kurulumunu otomatikleştirmek için tasarlanmış bir Bash betiği içerir. Betik gerekli sistem güncellemelerini yapar, gereken paketleri yükler ve kullanıcıyı flash işlemi sırasında yönlendirir.</h4>
+<br>
+<h3>Önkoşullar</h3>
+<h4>Betik çalıştırılmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
+<br>
+
+<br> *  Debian tabanlı bir Linux dağıtımı olan bir bilgisayar (ör. Ubuntu).
+
+<br> *  Bir Pixel cihazı.
+
+<br> *  Cihazı bilgisayara bağlamak için bir USB kablosu.
+
+<br> *  Terminal kullanımıyla ilgili temel bilgiler.</h4>
+<br>
+<h3>Betiğin işlevleri:</h3>
+<h4>1. Sistem paketlerini güncelleme ve iyileştirme
+
+<br>2. Gerekli paketleri yükleme
+
+<br>3. GrapheneOS sürümünü indirme
+<br> *  Betik, Pixel cihazı için GrapheneOS'in en son sürümünü indirir.
+
+<br> *  İndirilen dosyaları depolamak için gerekli dizinleri oluşturur.
+
+<br>4. İmzaları doğrulama
+<br> *  Betik, kurulum dosyalarının bütünlüğünü sağlamak için GrapheneOS için yetkili imzalayanları indirir ve doğrular. 
+<br>5. Kurulum dosyalarını indirme
+
+<br> *  Betik, GrapheneOS için kurulum zip'lerini ve OTA güncellemelerini indirir.
+
+<br>6. Cihazı hazırlama
+
+<br> *  Pixel cihazınızın bootloader kilidini açmak için ekrandaki talimatları izleyin.
+
+<br>7. GrapheneOS kurma
+
+<br> *  Betik kurulum dosyalarını açar ve flash işlemini gerçekleştirir.
+
+<br>8. Bootloader'ı yeniden kilitleme
+
+<br> *  Kurulumdan sonra güvenlik nedeniyle bootloader yeniden kilitlenir.</h4>
+<br>
+<h3>Önemli notlar</h3>
+<h4> 
+*  Verilerinizi yedekleyin:
+<br> Yeni bir işletim sistemi flashlamak cihazınızdaki tüm verileri silecektir. Önemli bilgilerin yedeğini aldığınızdan emin olun.
+<br>
+<br> *  Önyüklemeyi doğrulama:
+<br> Kurulumdan sonra GrapheneOS tarafından sunulan sertifikasyon işlevlerini kullanarak kurulum bütünlüğünü doğrulayın.
+</h4>
+<br>
+<h3>Sonuç:</h3>
+<h4> 
+Bu betik, Pixel cihazınızda GrapheneOS kurulumunu basitleştirir. Yukarıda açıklanan adımları izleyerek sorunsuz bir kurulum sağlayabilirsiniz. Sorun yaşarsanız veya sorularınız olursa, GrapheneOS'in resmi belgelerine bakın veya topluluktan yardım isteyin.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

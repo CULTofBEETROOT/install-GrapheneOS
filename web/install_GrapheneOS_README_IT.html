@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Installare GrapheneOS in modo semplice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Installazione</h1>
+            <h1>GrapheneOS</h1>
+            <h2>verificato, veloce, semplice</h2>
+            <div class="neon-block" role="group" aria-label="code example">  
+                <code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+                <button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy', 1000)})">copiato</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="./780febcc.mask-iconi.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Uso</h2>
+<h4>Per eseguire lo script, AD ESEMPIO, PER UN modello PIXEL10...
+<br>(adatta il comando al tuo modello PIXEL)
+<br>
+<br>Esegui il seguente comando nel tuo terminale:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy', 1000)})">copiato</button>
+</div>
+<br>
+<br>
+<h4>Segui le istruzioni dello script per completare il processo di installazione.</h4>
+<br>
+<br>
+<h3>Panoramica</h3>
+
+<h4>Questo repository contiene uno script Bash progettato per automatizzare l'installazione di GrapheneOS su qualsiasi dispositivo Google Pixel. Lo script esegue gli aggiornamenti di sistema necessari, installa i pacchetti richiesti e guida l'utente durante il processo di flashing.</h4>
+<br>
+<h3>Prerequisiti</h3>
+<h4>Prima di eseguire lo script, assicurati di avere quanto segue:
+<br>
+
+<br> *  Un computer con una distribuzione Linux basata su Debian (ad esempio, Ubuntu).
+
+<br> *  Un dispositivo Pixel.
+
+<br> *  Un cavo USB per collegare il dispositivo al computer.
+
+<br> *  Conoscenze di base sull'uso del terminale.</h4>
+<br>
+<h3>Funzionalità dello script:</h3>
+<h4>1. Aggiornare e migliorare i pacchetti di sistema
+
+<br>2. Installare i pacchetti necessari
+
+<br>3. Scaricare la versione di GrapheneOS
+<br> *  Lo script scarica l'ultima versione di GrapheneOS per il dispositivo Pixel.
+
+<br> *  Crea le directory necessarie per archiviare i file scaricati.
+
+<br>4. Verificare le firme
+<br> *  Lo script scarica e verifica i firmatari autorizzati per GrapheneOS per garantire l'integrità dei file di installazione. 
+<br>5. Scaricare i file di installazione
+
+<br> *  Lo script scarica gli archivi zip di installazione e gli aggiornamenti OTA per GrapheneOS.
+
+<br>6. Preparare il dispositivo
+
+<br> *  Segui le istruzioni sullo schermo per sbloccare il bootloader del tuo dispositivo Pixel.
+
+<br>7. Installare GrapheneOS
+
+<br> *  Lo script decomprime i file di installazione ed esegue il processo di flashing.
+
+<br>8. Bloccare il bootloader
+
+<br> *  Dopo l'installazione, il bootloader viene nuovamente bloccato per motivi di sicurezza.</h4>
+<br>
+<h3>Note importanti</h3>
+<h4> 
+*  Esegui un backup dei tuoi dati:
+<br> Flashare un nuovo sistema operativo cancellerà tutti i dati del tuo dispositivo. Assicurati di aver eseguito il backup di qualsiasi informazione importante.
+<br>
+<br> *  Verificare l'avvio:
+<br> Dopo l'installazione, utilizza le funzionalità di certificazione offerte da GrapheneOS per verificare l'integrità dell'installazione.
+</h4>
+<br>
+<h3>Conclusione:</h3>
+<h4> 
+Questo script semplifica l'installazione di GrapheneOS sul tuo dispositivo Pixel. Seguendo i passaggi descritti sopra potrai garantire un'installazione senza problemi. Se hai qualche problema o domanda, consulta la documentazione ufficiale di GrapheneOS o cerca aiuto nella community.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

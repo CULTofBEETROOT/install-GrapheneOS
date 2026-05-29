@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="utf-8">
+    <title>Enkel installation af GrapheneOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Webfont for klar rendering af latinske tegn -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+    </style>
+
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Installation</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>verificeret, hurtigt, enkelt</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Kopieret'; setTimeout(()=>this.innerText='Copy', 1000)})">Kopieret</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<h2>Brug</h2>
+<h4>For at køre scriptet, FOR EKSEMPEL FOR EN PIXEL10-model...
+<br>(tilpas kommandoen til din PIXEL-model)
+<br>
+<br>Kør følgende kommando i din terminal:<br>
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd-2"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd-2').innerText).then(()=>{this.innerText='Kopieret'; setTimeout(()=>this.innerText='Copy', 1000)})">Kopieret</button>
+</div>
+<br>
+<br>
+<h4>Følg scriptets instruktioner for at fuldføre installationsprocessen.</h4>
+<br>
+<br>
+<h3>Oversigt</h3>
+
+<h4>Denne repository indeholder et Bash-script designet til at automatisere installationen af GrapheneOS på enhver Google Pixel-enhed. Scriptet udfører nødvendige systemopdateringer, installerer de krævede pakker og vejleder brugeren under flashe-processen.</h4>
+<br>
+<h3>Forudsætninger</h3>
+<h4>Før du kører scriptet, skal du sikre dig, at du har:
+<br>
+
+<br> *  En computer med en Debian-baseret Linux-distribution (f.eks. Ubuntu).
+
+<br> *  En Pixel-enhed.
+
+<br> *  Et USB-kabel til at forbinde enheden til computeren.
+
+<br> *  Grundlæggende kendskab til brug af terminalen.</h4>
+<br>
+<h3>Scriptets funktioner:</h3>
+<h4>1. Opdatering og opgradering af systempakker
+
+<br>2. Installation af nødvendige pakker
+
+<br>3. Download af GrapheneOS-versionen
+<br> *  Scriptet downloader den seneste version af GrapheneOS til Pixel-enheden.
+
+<br> *  Opretter de nødvendige mapper til at gemme de downloadede filer.
+
+<br>4. Verificering af signaturer
+<br> *  Scriptet downloader og verificerer autoriserede signaturer for GrapheneOS for at sikre installationsfilernes integritet.
+<br>5. Download af installationsfiler
+
+<br> *  Scriptet downloader installations-zipfiler og OTA-opdateringer til GrapheneOS.
+
+<br>6. Forberedelse af enheden
+
+<br> *  Følg instruktionerne på skærmen for at låse bootloaderen op på din Pixel-enhed.
+
+<br>7. Installation af GrapheneOS
+
+<br> *  Scriptet pakker installationsfilerne ud og udfører flashe-processen.
+
+<br>8. Genlåsning af bootloader
+
+<br> *  Efter installationen låses bootloaderen igen af sikkerhedshensyn.</h4>
+<br>
+<h3>Vigtige bemærkninger</h3>
+<h4> 
+*  Tag backup af dine data:
+<br> At flashe et nyt operativsystem vil slette alle data på din enhed. Sørg for at have taget backup af vigtige oplysninger.
+<br>
+<br> *  Verificering af boot:
+<br> Efter installationen skal du bruge de verifikationsfunktioner, som GrapheneOS tilbyder, for at bekræfte installationens integritet.
+</h4>
+<br>
+<h3>Konklusion:</h3>
+<h4> 
+Dette script forenkler installationen af GrapheneOS på din Pixel-enhed. Ved at følge ovenstående trin sikrer du en problemfri installation. Hvis du støder på problemer eller har spørgsmål, se GrapheneOS' officielle dokumentation eller bed om hjælp i fællesskabet.
+</h4>
+        </div>
+    </section>
+
+</body>
+</html>
+

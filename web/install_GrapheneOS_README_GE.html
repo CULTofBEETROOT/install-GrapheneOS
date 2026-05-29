@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>GrapheneOS მარტივი ინსტალაცია</title>
+    <meta name="viewport" content="width=device-width, initial-scale=<br>1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>ინსტალაცია</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>შემოწმებული, სწრაფი, მარტივი</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',<br>1.00)})">დასაკოპირებელი</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>გამოყენება</h2>
+<h4>სკრიპტის გასაშვებად, მაგალითად PIXEL10 მოდელისთვის...
+<br>(მატონიშნე ბრძანება შენს PIXEL მოდელზე მორგებით)
+<br>
+<br>ჩაატარეთ შემდეგი ბრძანება თქვენს ტერმინალში:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',<br>1.00)})">დასაკოპირებელი</button>
+</div>
+<br>
+<br>
+<h4>გააკეთეთ სკრიპტის მითითებების დაცვა ინსტალაციის პროცესის დასრულებისთვის.</h4>
+<br>
+<br>
+<h3>განსაკუთრებული მიმოხილვა</h3>
+
+<h4>ეს რეპოზიტორი შეიცავს Bash სკრიპტს, რომელიც შექმნილია GrapheneOS-ის ავტომატური ინსტალაციისთვის ნებისმიერ Google Pixel მოწყობილობაზე. სკრიპტი ახორციელებს სისტემის აუცილებელ განახლებებს, ამონტაჟებს საჭირო პაკეტებს და გზას უჩვენებს მომხმარებელს ფლეშირების პროცესში.</h4>
+<br>
+<h3>პირველის საჭიროებები</h3>
+<h4>სკრიპტის გაშვების წინ დარწმუნდით, რომ გაქვთ შემდეგი:
+<br>
+
+<br> *  კომპიუტერი Debian-ზე დაფუძნებული Linux განაწილებით (მაგ., Ubuntu).
+
+<br> *  Pixel მოწყობილობა.
+
+<br> *  USB კაბელი მოწყობილობის კომპიუტერთან დაკავშირებისთვის.
+
+<br> *  ტერმინალის ძირითადი ცოდნა.</h4>
+<br>
+<h3>სკრიპტის ფუნქციები:</h3>
+<h4>1. სისტემური პაკეტების განახლება და განახლება
+
+<br>2. საჭირო პაკეტების ინსტალაცია
+
+<br>3. GrapheneOS-ის ვერსიის გადმოწერა
+<br> *  სკრიპტი გადმოწერს GrapheneOS-ის უახლეს ვერსიას Pixel მოწყობილობისთვის.
+
+<br> *  შექმნის საჭირო დირექტორიებს გადმოწერილი ფაილების შესანახად.
+
+<br>4. ხელმოწერების შემოწმება
+<br> *  სკრიპტი გადმოწერს და გადამოწმებს GrapheneOS-ის ავტორიზებულ ხელმომწერებს ინსტალაციის ფაილების მთლიანობის უზრუნველსაყოფად. 
+<br>5. ინსტალაციის ფაილების გადმოწერა
+
+<br> *  სკრიპტი გადმოწერს ინსტალაციის zip ფაილებს და GrapheneOS-ის OTA განახლებებს.
+
+<br>6. მოწყობილობის მომზადება
+
+<br> *  მიჰყევით ეკრანზე მითითებებს თქვენი Pixel-ის ბუტლოდერის გადაუდებლად მოსახსნელად.
+
+<br>7. GrapheneOS-ის ინსტალაცია
+
+<br> *  სკრიპტი ამოძრავებს ინსტალაციის ფაილებს და ახორციელებს ფლეშირების პროცესს.
+
+<br>8. ბუტლოდერის გადაფუთვა
+
+<br> *  ინსტალაციის შემდეგ უსაფრთხოებისათვის ბუტლოდერი ისევ გადაილოქება.</h4>
+<br>
+<h3>მნიშვნელოვანი ნოტები</h3>
+<h4> 
+*  შეინახეთ თქვენი მონაცემების ბექანი:
+<br> ახალი ოპერაციული სისტემის ფლეშირება ამოშლის თქვენს მოწყობილობაზე არსებულ ყველა მონაცემს. დარწმუნდეთ, რომ შეინახეთ ნებისმიერი მნიშვნელოვანი ინფორმაცია.
+<br>
+<br> *  ჩატვირთვის შემოწმება:
+<br> ინსტალაციის შემდეგ გამოიყენეთ GrapheneOS-ის შეთავაზებული სერტიფიკაციის ფუნქციები ინსტალაციის მთლიანობის დასადასტურებლად.
+</h4>
+<br>
+<h3>დასკვნა:</h3>
+<h4> 
+ეს სკრიპტი ამარტივებს GrapheneOS-ის ინსტალაციას თქვენს Pixel მოწყობილობაზე. ზემოთ მოხსენიებული ნაბიჯების დაცვით შეძლებთ პრობლემების გარეშე ინსტალაციის უზრუნველყოფას. თუ გაქვთ პრობლემა ან კითხვა, იხილეთ GrapheneOS-ის ოფიციალური დოკუმენტაცია ან მოძებნეთ დახმარება წვლილის საზოგადოებაში.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

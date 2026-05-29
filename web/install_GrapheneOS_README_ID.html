@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Pasang GrapheneOS sederhana</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Instalasi</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>terverifikasi, cepat, sederhana</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">disalin</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Penggunaan</h2>
+<h4>Untuk menjalankan skrip, MISALNYA UNTUK MODEL PIXEL10...
+<br>(sesuaikan perintah dengan model PIXEL Anda)
+<br>
+<br>Jalankan perintah berikut di terminal Anda:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">disalin</button>
+</div>
+<br>
+<br>
+<h4>Ikuti petunjuk skrip untuk menyelesaikan proses instalasi.</h4>
+<br>
+<br>
+<h3>Gambaran umum</h3>
+
+<h4>Repositori ini berisi skrip Bash yang dirancang untuk mengotomatiskan pemasangan GrapheneOS di perangkat Google Pixel mana pun. Skrip melakukan pembaruan sistem yang diperlukan, menginstal paket yang dibutuhkan, dan membimbing pengguna selama proses flashing.</h4>
+<br>
+<h3>Persyaratan sebelumnya</h3>
+<h4>Sebelum menjalankan skrip, pastikan Anda memiliki:
+<br>
+
+<br> *  Komputer dengan distribusi Linux berbasis Debian (misalnya, Ubuntu).
+
+<br> *  Perangkat Pixel.
+
+<br> *  Kabel USB untuk menghubungkan perangkat ke komputer.
+
+<br> *  Pengetahuan dasar penggunaan terminal.</h4>
+<br>
+<h3>Fitur skrip:</h3>
+<h4>1. Memperbarui dan meningkatkan paket sistem
+
+<br>2. Menginstal paket yang diperlukan
+
+<br>3. Mengunduh versi GrapheneOS
+<br> *  Skrip mengunduh versi terbaru GrapheneOS untuk perangkat Pixel.
+
+<br> *  Membuat direktori yang diperlukan untuk menyimpan file yang diunduh.
+
+<br>4. Memverifikasi tanda tangan
+<br> *  Skrip mengunduh dan memverifikasi penandatangan yang berwenang untuk GrapheneOS untuk memastikan integritas file instalasi. 
+<br>5. Mengunduh file instalasi
+
+<br> *  Skrip mengunduh file zip instalasi dan pembaruan OTA untuk GrapheneOS.
+
+<br>6. Mempersiapkan perangkat
+
+<br> *  Ikuti instruksi di layar untuk membuka kunci bootloader perangkat Pixel Anda.
+
+<br>7. Memasang GrapheneOS
+
+<br> *  Skrip mengekstrak file instalasi dan menjalankan proses flashing.
+
+<br>8. Mengunci kembali bootloader
+
+<br> *  Setelah instalasi, bootloader dikunci kembali demi keamanan.</h4>
+<br>
+<h3>Catatan penting</h3>
+<h4> 
+*  Cadangkan data Anda:
+<br> Flashing sistem operasi baru akan menghapus semua data di perangkat Anda. Pastikan Anda telah mencadangkan informasi penting.
+<br>
+<br> *  Verifikasi boot:
+<br> Setelah instalasi, gunakan fitur sertifikasi yang disediakan oleh GrapheneOS untuk memverifikasi integritas instalasi.
+</h4>
+<br>
+<h3>Kesimpulan:</h3>
+<h4> 
+Skrip ini menyederhanakan pemasangan GrapheneOS pada perangkat Pixel Anda. Dengan mengikuti langkah-langkah di atas, Anda dapat memastikan pemasangan yang lancar. Jika Anda mengalami masalah atau memiliki pertanyaan, lihat dokumentasi resmi GrapheneOS atau minta bantuan dari komunitas.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

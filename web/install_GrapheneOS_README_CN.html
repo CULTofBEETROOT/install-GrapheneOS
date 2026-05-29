@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>简单安装 GrapheneOS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>安装</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>已验证、快速、简单</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">已复制</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>使用</h2>
+<h4>要运行脚本，例如，对 PIXEL10 型号...
+<br>（根据你的 PIXEL 型号调整命令）
+<br>
+<br>在终端中运行以下命令：<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copied'; setTimeout(()=>this.innerText='Copy',1.00)})">已复制</button>
+</div>
+<br>
+<br>
+<h4>按照脚本的提示完成安装过程。</h4>
+<br>
+<br>
+<h3>概述</h3>
+
+<h4>此存储库包含一个 Bash 脚本，旨在自动化在任何 Google Pixel 设备上安装 GrapheneOS 的流程。脚本会执行必要的系统更新、安装所需软件包，并在刷机过程中指导用户。</h4>
+<br>
+<h3>先决条件</h3>
+<h4>在运行脚本之前，请确保具备以下条件：
+<br>
+
+<br> *  一台运行基于 Debian 的 Linux 发行版的电脑（例如，Ubuntu）。
+
+<br> *  一部 Pixel 设备。
+
+<br> *  用于将设备连接到电脑的 USB 数据线。
+
+<br> *  基本的终端使用知识。</h4>
+<br>
+<h3>脚本功能：</h3>
+<h4>1. 更新并升级系统包
+
+<br>2. 安装所需的软件包
+
+<br>3. 下载 GrapheneOS 版本
+<br> *  脚本会为 Pixel 设备下载最新的 GrapheneOS 版本。
+
+<br> *  创建必要的目录以存放下载的文件。
+
+<br>4. 验证签名
+<br> *  脚本下载并验证 GrapheneOS 的授权签名者，以确保安装文件的完整性。 
+<br>5. 下载安装文件
+
+<br> *  脚本下载安装用的 zip 文件和 GrapheneOS 的 OTA 更新。
+
+<br>6. 准备设备
+
+<br> *  按屏幕上的说明解锁你的 Pixel 设备的引导加载程序。
+
+<br>7. 安装 GrapheneOS
+
+<br> *  脚本解压安装文件并执行刷机过程。
+
+<br>8. 锁定引导加载程序
+
+<br> *  安装完成后，为安全起见会重新锁定引导加载程序。</h4>
+<br>
+<h3>重要注意事项</h3>
+<h4> 
+*  备份你的数据：
+<br> 刷入新的操作系统会清除设备上的所有数据。请确保已备份任何重要信息。
+<br>
+<br> *  引导验证：
+<br> 安装完成后，使用 GrapheneOS 提供的验证功能检查安装完整性。
+</h4>
+<br>
+<h3>结论：</h3>
+<h4> 
+该脚本简化了在你的 Pixel 设备上安装 GrapheneOS 的过程。按照上述步骤操作，可以确保顺利安装。如果遇到问题或有疑问，请查阅 GrapheneOS 官方文档或向社区寻求帮助。
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+

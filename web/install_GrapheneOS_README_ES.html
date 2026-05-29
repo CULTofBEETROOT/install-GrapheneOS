@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Instalar GrapheneOS fácilmente</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Instalar</h1>
+            <h1>GrapheneOS</h1>
+            <h2>verificado, rápido, sencillo</h2>
+            <div class="neon-block" role="group" aria-label="ejemplo de código">  
+                <pre class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip"
+unzip main.zip
+sudo bash /home/$USER/Downloads/PIXEL10.sh</pre>  
+                <button class="copy-btn" data-target="cmd">Copiar</button>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <img src="./780febcc.mask-iconi.jpg" alt="">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Uso</h2>
+<h4>Para ejecutar el script, POR EJEMPLO, PARA UN modelo PIXEL10...
+<br>(adapta el comando a tu modelo PIXEL)
+<br>
+<br>Ejecuta el siguiente comando en tu terminal:<br>
+</h4>
+<div class="neon-block" role="group" aria-label="ejemplo de código">  
+<pre class="neon-code" id="cmd2">sudo bash /home/$USER/Downloads/PIXEL10.sh</pre>  
+<button class="copy-btn" data-target="cmd2">Copiar</button>
+</div>
+<br>
+<br>
+<h4>Sigue las instrucciones en pantalla del script para completar el proceso de instalación.</h4>
+<br>
+<br>
+<h3>Resumen</h3>
+
+<h4>Este repositorio contiene un script Bash diseñado para automatizar la instalación de GrapheneOS en cualquier dispositivo Google Pixel. El script realiza las actualizaciones del sistema necesarias, instala los paquetes requeridos y guía al usuario durante el proceso de flasheo.</h4>
+<br>
+<h3>Requisitos previos</h3>
+<h4>Antes de ejecutar el script, asegúrate de tener lo siguiente :
+<br>
+
+<br> *  Un ordenador con una distribución Linux basada en Debian (por ejemplo, Ubuntu).
+
+<br> *  Un dispositivo Pixel.
+
+<br> *  Un cable USB para conectar el dispositivo al ordenador.
+
+<br> *  Conocimientos básicos del uso del terminal.</h4>
+<br>
+<h3>Características del script :</h3>
+<h4>1. Actualizar y mejorar los paquetes del sistema
+
+<br>2. Instalar los paquetes necesarios
+
+<br>3. Descargar la versión de GrapheneOS
+<br> *  El script descarga la última versión de GrapheneOS para el dispositivo Pixel.
+
+<br> *  Crea los directorios necesarios para almacenar los archivos descargados.
+
+<br>4. Verificar firmas
+<br> *  El script descarga y verifica los firmantes autorizados para GrapheneOS para garantizar la integridad de los archivos de instalación. 
+<br>5. Descargar los archivos de instalación
+
+<br> *  El script descarga los archivos zip de instalación y las actualizaciones OTA para GrapheneOS.
+
+<br>6. Preparar el dispositivo
+
+<br> *  Sigue las instrucciones en pantalla para desbloquear el bootloader de tu dispositivo Pixel.
+
+<br>7. Instalar GrapheneOS
+
+<br> *  El script extrae los archivos de instalación y ejecuta el proceso de flasheo.
+
+<br>8. Volver a bloquear el bootloader
+
+<br> *  Después de la instalación, el bootloader se vuelve a bloquear por motivos de seguridad.</h4>
+<br>
+<h3>Notas importantes</h3>
+<h4> 
+*  Haz una copia de seguridad de tus datos :
+<br> Flashear un nuevo sistema operativo borrará todos los datos de tu dispositivo. Asegúrate de haber hecho una copia de seguridad de cualquier información importante.
+<br>
+<br> *  Verificar el arranque :
+<br> Después de la instalación, utiliza las funciones de atestación proporcionadas por GrapheneOS para verificar la integridad de la instalación.
+</h4>
+<br>
+<h3>Conclusión :</h3>
+<h4> 
+Este script simplifica la instalación de GrapheneOS en tu dispositivo Pixel. Siguiendo los pasos anteriores puedes asegurar una instalación sin problemas. Si tienes algún problema o pregunta, consulta la documentación oficial de GrapheneOS o busca ayuda en la comunidad.
+</h4>
+            </p>
+        </div>
+    </section>
+
+<script>
+document.addEventListener('click', function(e){
+  if(e.target.matches('.copy-btn')){
+    var id = e.target.getAttribute('data-target');
+    var code = document.getElementById(id).innerText;
+    var ta = document.createElement('textarea');
+    ta.value = code;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    e.target.innerText = 'Copiar';
+    setTimeout(()=> e.target.innerText = 'Copiar', 1000);
+  }
+});
+</script>
+
+</body>
+</html>

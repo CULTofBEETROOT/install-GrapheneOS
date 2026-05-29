@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Instalare GrapheneOS simplă</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2.family=Orbitron:wght@5.0;700&family=Poppins:wght@4.0;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./install_GrapheneOS_ES_style.css">
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+	    <h1>Instalare</h1>
+	    <h1>GrapheneOS</h1>
+            <h2>verificat, rapid, simplu</h2>
+		<div class="neon-block" role="group" aria-label="code example">  
+		<code class="neon-code" id="cmd">wget "https://github.com/CULTofBEETROOT/install-GrapheneOS/archive/refs/heads/main.zip";
+unzip main.zip;
+sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+		<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copiat'; setTimeout(()=>this.innerText='Copiază',1.00)})">copiat</button>
+		</div>
+        </div>
+
+        <div class="hero-image">
+	    <img src="./780febcc.mask-iconi.jpg">
+        </div>
+
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-content">
+<p>
+<h2>Utilizare</h2>
+<h4>Pentru a rula scriptul, DE EXEMPLU PENTRU UN model PIXEL10...
+<br>(adaptează comanda la modelul tău PIXEL)
+<br>
+<br>Rulează următoarea comandă în terminalul tău:<br>
+
+</h4>
+<div class="neon-block" role="group" aria-label="code example">  
+<code class="neon-code" id="cmd"> sudo bash /home/$USER/Downloads/PIXEL10.sh</code>  
+<button class="copy-btn" onclick="navigator.clipboard.writeText(document.getElementById('cmd').innerText).then(()=>{this.innerText='Copiat'; setTimeout(()=>this.innerText='Copiază',1.00)})">copiat</button>
+</div>
+<br>
+<br>
+<h4>Urmează indicațiile scriptului pentru a finaliza procesul de instalare.</h4>
+<br>
+<br>
+<h3>Prezentare generală</h3>
+
+<h4>Acest repository conține un script Bash conceput pentru a automatiza instalarea GrapheneOS pe orice dispozitiv Google Pixel. Scriptul efectuează actualizările necesare ale sistemului, instalează pachetele necesare și ghidează utilizatorul în timpul procesului de flash.</h4>
+<br>
+<h3>Cerințe preliminare</h3>
+<h4>Înainte de a rula scriptul, asigură-te că ai următoarele:
+<br>
+
+<br> *  Un calculator cu o distribuție Linux bazată pe Debian (de ex. Ubuntu).
+
+<br> *  Un dispozitiv Pixel.
+
+<br> *  Un cablu USB pentru a conecta dispozitivul la calculator.
+
+<br> *  Cunoștințe de bază privind utilizarea terminalului.</h4>
+<br>
+<h3>Funcțiile scriptului:</h3>
+<h4>1. Actualizarea și îmbunătățirea pachetelor sistemului
+
+<br>2. Instalarea pachetelor necesare
+
+<br>3. Descărcarea versiunii GrapheneOS
+<br> *  Scriptul descarcă cea mai recentă versiune de GrapheneOS pentru dispozitivul Pixel.
+
+<br> *  Creează directoarele necesare pentru a stoca fișierele descărcate.
+
+<br>4. Verificarea semnăturilor
+<br> *  Scriptul descarcă și verifică semnatarile autorizate pentru GrapheneOS pentru a garanta integritatea fișierelor de instalare. 
+<br>5. Descărcarea fișierelor de instalare
+
+<br> *  Scriptul descarcă fișierele zip de instalare și actualizările OTA pentru GrapheneOS.
+
+<br>6. Pregătirea dispozitivului
+
+<br> *  Urmează instrucțiunile de pe ecran pentru a debloca bootloader-ul dispozitivului Pixel.
+
+<br>7. Instalarea GrapheneOS
+
+<br> *  Scriptul dezarhivează fișierele de instalare și execută procesul de flash.
+
+<br>8. Relocarea bootloader-ului în stare blocată
+
+<br> *  După instalare, bootloader-ul este blocat din nou din motive de securitate.</h4>
+<br>
+<h3>Note importante</h3>
+<h4> 
+*  Realizează o copie de rezervă a datelor:
+<br> Flasharea unui sistem de operare nou va șterge toate datele de pe dispozitivul tău. Asigură-te că ai făcut backup la orice informație importantă.
+<br>
+<br> *  Verificarea boot-ului:
+<br> După instalare, folosește funcțiile de certificare oferite de GrapheneOS pentru a verifica integritatea instalării.
+</h4>
+<br>
+<h3>Concluzie:</h3>
+<h4> 
+Acest script simplifică instalarea GrapheneOS pe dispozitivul tău Pixel. Urmând pașii de mai sus, poți asigura o instalare lipsită de probleme. Dacă întâmpini probleme sau ai întrebări, consultă documentația oficială GrapheneOS sau cere ajutor în comunitate.
+</h4>
+            </p>
+        </div>
+    </section>
+
+</body>
+</html>
+
